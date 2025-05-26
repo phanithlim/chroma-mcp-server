@@ -101,6 +101,5 @@ def query_documents(collection_name: str, query: str, k: int = 3, filter: dict |
     except Exception as e:
         return {"error": f"Failed to query documents: {str(e)}"}
 
-
 # if __name__ == "__main__":
 #     mcp.run()
