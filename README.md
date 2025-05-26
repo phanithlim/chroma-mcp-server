@@ -1,8 +1,8 @@
 # Chroma MCP Server
-This project provides a FastAPI-based server for managing and querying collections of documents using ChromaDB. It supports various operations such as retrieving collections, fetching items, counting items, and querying documents with optional filters.
+Template for a FastAPI application that serves as a server inspector for ChromaDB, providing endpoints to interact with collections and documents.
 
 ## Prerequisites
-We assume you have ChromaDB in docker or host model on any Cloud provider. If you don't have it, you can run it locally using Docker:
+Assume that you have ChromaDB in docker or host model on any Cloud provider. If you don't have it, you can run it locally using Docker:
 
 ```bash
 docker run -v ./chroma-data:/data -p 8000:8000 chromadb/chroma
