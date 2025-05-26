@@ -67,6 +67,11 @@ Build the Docker image:
 ```bash
 docker build -t mcp-server .
 ```
+Run the Docker container:
+```bash
+docker run -d -p 8000:8000 mcp-server
+```
+- MCP server url: `http://localhost:8000/mcp-server/mcp`
 ### Gradio UI
 To run the Gradio UI, you can use the following command:
 ```bash
