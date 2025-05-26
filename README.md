@@ -2,7 +2,7 @@
 Template for a FastAPI application that serves as a server inspector for ChromaDB, providing endpoints to interact with collections and documents.
 
 ## Prerequisites
-Assume that you have ChromaDB in docker or host model on any Cloud provider. If you don't have it, you can run it locally using Docker:
+Assume that you have ChromaDB in docker or host on any Cloud provider. If you don't have it, you can run it locally using Docker:
 
 ```bash
 docker run -v ./chroma-data:/data -p 8000:8000 chromadb/chroma
